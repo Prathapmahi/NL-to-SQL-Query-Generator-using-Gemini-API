@@ -19,7 +19,7 @@ class IPLQueryApp:
             
     def setup_gemini(self):
         """Setup Gemini API"""
-        GEMINI_API_KEY = 'AIzaSyAZNEYWiW7uPyBZWlKLbq1ie2x1aUuSPDw'  # Replace with your API key
+        GEMINI_API_KEY = 'AIzaSyAZNEYWiW7uPyBZWlKLbq1ie2xtree1aUuSPDw'  # Replace with your API key
         genai.configure(api_key=GEMINI_API_KEY)
         self.model = genai.GenerativeModel('gemini-pro')
         
