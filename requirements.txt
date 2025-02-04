@@ -1,0 +1,10 @@
+requirements.txt
+
+streamlit
+pandas
+google-generativeai
+langchain
+langchain-community
+langchain-core
+python-dotenv
+sqlite3-utils
